@@ -1,41 +1,76 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stickee 개인정보처리방침</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Stickee 개인정보처리방침</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<h1>Stickee 개인정보처리방침</h1>
+<header id="title-block-header">
+<h1 class="title">Stickee 개인정보처리방침</h1>
+</header>
+<h1 id="stickee-개인정보처리방침">Stickee 개인정보처리방침</h1>
 <blockquote>
 <p>시행일: 2026-06-01</p>
 </blockquote>
-<p>Stickee(이하 "서비스")는 이용자의 개인정보를 소중히 다룹니다. 본 방침은 어떤 정보를 어떻게 수집·이용·보관·파기하는지 설명합니다.</p>
-<h2>1. 수집하는 개인정보 항목</h2>
+<p>Stickee(이하 "서비스")는 이용자의 개인정보를 소중히 다룹니다. 본
+방침은 어떤 정보를 어떻게 수집·이용·보관·파기하는지 설명합니다.</p>
+<h2 id="1-수집하는-개인정보-항목">1. 수집하는 개인정보 항목</h2>
 <ul>
-<li><strong>Apple Sign-In 정보</strong>: Apple 사용자 식별자, 이메일 주소(Apple Private Relay 가능)</li>
+<li><strong>Apple Sign-In 정보</strong>: Apple 사용자 식별자, 이메일
+주소(Apple Private Relay 가능)</li>
 <li><strong>프로필</strong>: 닉네임, 프로필 사진(선택)</li>
-<li><strong>이용자 콘텐츠</strong>: 텍스트 포스트(최대 200자), 첨부 이미지, 1:1 다이렉트 메시지, 답장(체인 노트)</li>
-<li><strong>위치</strong>: 포스트 작성 시점의 위도/경도(전체 정밀도)</li>
-<li><strong>자동 수집</strong>: 세션 토큰, IP 주소, 디바이스 정보(앱 버전, OS 버전)</li>
+<li><strong>이용자 콘텐츠</strong>: 텍스트 포스트(최대 200자), 첨부
+이미지, 1:1 다이렉트 메시지, 답장(체인 노트)</li>
+<li><strong>위치</strong>: 포스트 작성 시점의 위도/경도(전체
+정밀도)</li>
+<li><strong>자동 수집</strong>: 세션 토큰, IP 주소, 디바이스 정보(앱
+버전, OS 버전)</li>
+<li><strong>광고 식별자(IDFA)</strong>: 사용자가 앱 추적 허용(ATT)에
+동의한 경우에 한해, 광고 노출·측정 목적으로 수집</li>
+<li><strong>충돌 진단</strong>: 스택 트레이스, 디바이스 모델, OS·앱
+버전, 메모리/디스크 상태, 익명 세션 식별자(크래시·오류 발생 시에만)</li>
 </ul>
 <p>수집하지 않습니다:</p>
 <ul>
-<li>광고 식별자(IDFA)</li>
 <li>연락처, 캘린더, 건강 데이터, 결제 정보</li>
 </ul>
-<h2>2. 수집 목적</h2>
+<h2 id="2-수집-목적">2. 수집 목적</h2>
 <ul>
 <li>Apple Sign-In을 통한 회원 인증</li>
 <li>내 주변에 있는 다른 사용자의 포스트잇 표시(위치 기반 거리 계산)</li>
 <li>1:1 다이렉트 메시지 송수신</li>
 <li>부적절 콘텐츠 신고 처리 및 모더레이션</li>
 <li>서비스 안정성(오류 추적, 어뷰즈 방지)</li>
-<li>같은 지역(반경 수 km 이내)에 있는 다른 사용자의 클라이언트에 포스트의 위치 좌표가 함께 전달되어 거리 계산과 캔버스 배치에 사용됩니다. 위치 좌표 자체가 UI에 표시되지는 않습니다.</li>
+<li>광고 노출 및 측정(무료 한도 초과 시 광고 시청을 통한 보너스 포스트
+적립)</li>
+<li>같은 지역(반경 수 km 이내)에 있는 다른 사용자의 클라이언트에
+포스트의 위치 좌표가 함께 전달되어 거리 계산과 캔버스 배치에 사용됩니다.
+위치 좌표 자체가 UI에 표시되지는 않습니다.</li>
 </ul>
-<h2>3. 보유 및 이용 기간</h2>
-<markdown-accessiblity-table><table role="table">
+<h2 id="3-보유-및-이용-기간">3. 보유 및 이용 기간</h2>
+<table>
 <thead>
 <tr>
 <th>항목</th>
@@ -49,7 +84,8 @@
 </tr>
 <tr>
 <td>포스트잇</td>
-<td>작성 시점부터 24시간 후 서버에서 자동 삭제(사용자가 그 전에 직접 삭제 가능)</td>
+<td>작성 시점부터 24시간 후 서버에서 자동 삭제(사용자가 그 전에 직접
+삭제 가능)</td>
 </tr>
 <tr>
 <td>다이렉트 메시지</td>
@@ -60,49 +96,68 @@
 <td>90일(모더레이션 검토 목적)</td>
 </tr>
 </tbody>
-</table></markdown-accessiblity-table>
+</table>
 <p>법령상 의무 보유 항목은 없습니다.</p>
-<h2>4. 제3자 제공 및 처리 위탁</h2>
+<h2 id="4-제3자-제공-및-처리-위탁">4. 제3자 제공 및 처리 위탁</h2>
 <ul>
-<li><strong>Apple Inc.</strong> — Apple Sign-In 인증 처리(목적 한정)</li>
-<li><strong>Supabase Inc.</strong> — 데이터베이스/Realtime/Storage/인증 서비스(미국 리전; 정확한 리전은 운영자 검증 후 본 문구 갱신)</li>
+<li><strong>Apple Inc.</strong> — Apple Sign-In 인증 처리(목적
+한정)</li>
+<li><strong>Supabase Inc.</strong> — 데이터베이스/Realtime/Storage/인증
+서비스(미국 리전; 정확한 리전은 운영자 검증 후 본 문구 갱신)</li>
+<li><strong>Google LLC (AdMob)</strong> — 광고 노출·측정 및 광고 사기
+방지(ATT 동의 시 IDFA 포함). <a
+href="https://policies.google.com/privacy">Google 개인정보처리방침</a>
+적용.</li>
+<li><strong>Functional Software, Inc. (Sentry)</strong> — 앱 크래시 및
+오류 진단 데이터의 수집·저장(미국 리전)</li>
 </ul>
-<p>광고 사업자 및 마케팅·분석 서비스에 데이터를 제공하지 않습니다(1.0 기준). 정책 변경 시 사전 고지합니다.</p>
-<h2>5. 이용자의 권리</h2>
+<p>상기 처리위탁 외 마케팅·분석 서비스에는 개인정보를 제공하지
+않습니다(1.0 기준). 정책 변경 시 사전 고지합니다.</p>
+<h2 id="5-이용자의-권리">5. 이용자의 권리</h2>
 <ul>
 <li><strong>열람</strong>: 프로필 화면에서 닉네임/이메일 확인</li>
 <li><strong>수정</strong>: 프로필 편집(닉네임 변경)</li>
-<li><strong>삭제</strong>: 프로필 → 계정 삭제(즉시 영구 삭제, 복구 불가)</li>
+<li><strong>삭제</strong>: 프로필 → 계정 삭제(즉시 영구 삭제, 복구
+불가)</li>
 <li><strong>동의 철회</strong>: 계정 삭제로 갈음</li>
 <li><strong>처리정지</strong>: 계정 삭제 또는 로그아웃</li>
 </ul>
-<h2>6. 만 14세 미만 아동</h2>
-<p>본 서비스는 만 17세 이상 이용을 권장합니다(App Store 연령 등급 17+). 만 14세 미만으로 확인되는 계정은 즉시 삭제합니다.</p>
-<h2>7. 개인정보의 안전성 확보 조치 및 파기 방법</h2>
+<h2 id="6-만-14세-미만-아동">6. 만 14세 미만 아동</h2>
+<p>본 서비스는 만 17세 이상 이용을 권장합니다(App Store 연령 등급 17+).
+만 14세 미만으로 확인되는 계정은 즉시 삭제합니다.</p>
+<h2 id="7-개인정보의-안전성-확보-조치-및-파기-방법">7. 개인정보의 안전성
+확보 조치 및 파기 방법</h2>
 <p><strong>안전성 확보:</strong></p>
 <ul>
 <li><strong>전송 구간</strong>: HTTPS(Supabase 엔드포인트)</li>
 <li><strong>저장 구간</strong>: Supabase 서버 측 암호화(AES-256)</li>
-<li><strong>접근 통제</strong>: Supabase RLS(Row Level Security)로 사용자별 격리</li>
+<li><strong>접근 통제</strong>: Supabase RLS(Row Level Security)로
+사용자별 격리</li>
 <li><strong>저장 위치</strong>: Supabase 미국 리전</li>
 </ul>
 <p><strong>파기 방법:</strong></p>
 <ul>
-<li><strong>계정 정보·콘텐츠·DM·신고 데이터</strong>: 회원 탈퇴 또는 보유 기간 경과 시 데이터베이스 레코드를 즉시 영구 삭제(SQL DELETE)하며 복구하지 않습니다. 사용자 ID는 외래 키 CASCADE로 연결된 모든 테이블에서 동시에 제거됩니다.</li>
-<li><strong>이미지 파일</strong>: Supabase Storage에서 객체 삭제 API로 영구 제거합니다.</li>
-<li><strong>백업</strong>: 일반 백업 주기에 따라 백업본에서도 순차적으로 제거됩니다.</li>
+<li><strong>계정 정보·콘텐츠·DM·신고 데이터</strong>: 회원 탈퇴 또는
+보유 기간 경과 시 데이터베이스 레코드를 즉시 영구 삭제(SQL DELETE)하며
+복구하지 않습니다. 사용자 ID는 외래 키 CASCADE로 연결된 모든 테이블에서
+동시에 제거됩니다.</li>
+<li><strong>이미지 파일</strong>: Supabase Storage에서 객체 삭제 API로
+영구 제거합니다.</li>
+<li><strong>백업</strong>: 일반 백업 주기에 따라 백업본에서도 순차적으로
+제거됩니다.</li>
 </ul>
-<h2>8. 개인정보 보호책임자 및 연락처</h2>
+<h2 id="8-개인정보-보호책임자-및-연락처">8. 개인정보 보호책임자 및
+연락처</h2>
 <ul>
 <li><strong>책임자</strong>: Stickee 운영팀</li>
-<li><strong>이메일</strong>: <a href="mailto:m412302025@gmail.com">m412302025@gmail.com</a></li>
+<li><strong>이메일</strong>: <a
+href="mailto:m412302025@gmail.com">m412302025@gmail.com</a></li>
 <li><strong>응답 SLA</strong>: 영업일 기준 72시간 이내</li>
 </ul>
-<h2>9. 방침 변경</h2>
-<p>본 방침이 중요하게 변경되는 경우, 앱 내 공지를 통해 시행일 7일 전에 알립니다.</p>
-<hr>
+<h2 id="9-방침-변경">9. 방침 변경</h2>
+<p>본 방침이 중요하게 변경되는 경우, 앱 내 공지를 통해 시행일 7일 전에
+알립니다.</p>
+<hr />
 <p>본 방침은 2026-06-01부터 시행합니다.</p>
-<hr>
-<p><a href="index.html">← 목록으로</a> · 문의: <a href="mailto:m412302025@gmail.com">m412302025@gmail.com</a></p>
 </body>
 </html>
